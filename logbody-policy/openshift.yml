@@ -29,7 +29,7 @@ objects:
       contextDir: logbody-policy
       git:
         uri: ${GIT_REPO}
-        ref: 'master'
+        ref: 'main'
         
       type: Git
     strategy:
