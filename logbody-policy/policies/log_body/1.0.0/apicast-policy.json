@@ -7,6 +7,12 @@
   "version": "1.0.0",
   "configuration": {
     "type": "object",
-    "properties": {}
+    "properties": {
+      "body_length": {
+        "title": "Response body length",
+        "description": "How many characters are being logged of the complete response payload",
+        "type": "string"
+      }
+    }
   }
 }
